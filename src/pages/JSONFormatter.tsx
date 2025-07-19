@@ -25,7 +25,7 @@ export default function JSONFormatter() {
 
     try {
 const response = await fetch(
-  'http://localhost:5000/api/json/format-json',
+  'https://tech-at-play-dev-tool.onrender.com/api/json/format-json',
   {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
