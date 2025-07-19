@@ -21,8 +21,8 @@ export default function Base64Tools() {
     try {
       const endpoint =
         mode === 'encode'
-          ? 'http://localhost:5000/api/base64/encode'
-          : 'http://localhost:5000/api/base64/decode';
+          ? 'https://tech-at-play-dev-tool.onrender.com/api/base64/encode'
+          : 'https://tech-at-play-dev-tool.onrender.com/api/base64/decode';
 
       const payload = { input }; // ✅ fixed
 
