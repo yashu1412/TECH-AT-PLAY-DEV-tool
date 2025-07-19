@@ -25,8 +25,8 @@ export default function URLEncoder() {
 
     try {
       const endpoint = operationMode === 'encode'
-        ? 'http://localhost:5000/api/url/encode'
-        : 'http://localhost:5000/api/url/decode';
+        ? 'https://tech-at-play-dev-tool.onrender.com/api/url/encode'
+        : 'https://tech-at-play-dev-tool.onrender.com/api/url/decode';
 
       const payload = {
         input: input,
